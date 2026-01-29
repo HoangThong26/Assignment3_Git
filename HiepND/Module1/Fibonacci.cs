@@ -3,7 +3,7 @@
     {
         public int Fibonacci(int n, bool flag)
         {
-            if (flag)
+            if (!flag)
                 throw new ArgumentException("Flag must be true for impl1");
 
             return FibonacciRecursive(n);
